@@ -15,7 +15,7 @@ class MainController extends AbstractController
     public function index()
     {
         return $this->render('main/index.html.twig', [
-            'welcome' => 'youpi',
+            'welcome' => '2020',
         ]);
     }
      /**
